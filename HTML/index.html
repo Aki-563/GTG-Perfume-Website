@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="landing-page">
+            <div class="inner-container">
+
+                <div class="header-d">
+                    <h1 class="header-title">GTG</h1>
+                    <div class="tabs-container">
+                        <button>Home</button>
+                        <button>Shop <img src="../Assets/Vector.png" alt="vector" /></button>
+                        <button>Fragrances</button>
+                        <button>About Us</button>
+                        <button>Blog</button>
+                        <button>Contact</button>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <img src="../Assets/magnifyGlass.png" alt="magnify-glass" />
+                        <button class="tbg-button">Shop Now</button>
+                    </div>
+                </div>
+                <div class="header-m">
+                    <div class="header-m-content">
+                        <h1 class="header-title">GTG</h1>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <div id="search">
+                                <img src="../Assets/magnifyGlass.png" alt="magnify-glass"
+                                    style="width: 24px; height: 24px;" />
+                            </div>
+                            <div id="hamburger">
+                                <img src="../Assets/dehaze_24dp_4A7B6D_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt="hamburger" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="mobile-menu" class="mobile-menu-closed">
+                        <ul class="tabs-container-m">
+                            <li><button class="tab-button">Home</button></li>
+                            <li><button class="tab-button">Shop</button></li>
+                            <li><button class="tab-button">Fragrances</button></li>
+                            <li><button class="tab-button">About Us</button></li>
+                            <li><button class="tab-button">Blog</button></li>
+                            <li><button class="tab-button">Contact</button></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="landing-page-content">
+
+                    <div class="award-badge">
+                        <img src="../Assets/Medal.png" alt="medal" />
+                        <p style="margin: 0;">Awarded the best perfume in the world</p>
+                    </div>
+
+                    <h2 class="landing-page-title">Live your best life</h2>
+
+                    <div class="landing-page-stats">
+                        <div class="landing-page-stats-container">
+                            <div class="landing-page-stats-item">
+                                <h2>10x</h2>
+                                <p>power</p>
+                            </div>
+                            <div class="landing-page-stats-item">
+                                <h2>9</h2>
+                                <p>ingredients</p>
+                            </div>
+                            <div class="landing-page-stats-item">
+                                <h2>20K+</h2>
+                                <p>happy customers</p>
+                            </div>
+                        </div>
+
+                        <button class="tbg-button-m">Shop Now</button>
+
+                    </div>
+                </div>
+
+                <button class="tbg-button landing-page-button">Shop Now</button>
+            </div>
+        </div>
+        <div class="shopping-container">
+            <div class="inner-container shopping-content">
+                <div class="product-images-container">
+                    <div class="product-image-container">
+                        <img src="../Assets/a206a3992f8dd3b83e58b96d68af3ba37d448aff.png" id="main-image"
+                            alt="product-image" class="product-image">
+                    </div>
+                    <div class="similar-images-container">
+                        <div class="small-image-container selected-image" id="original-image">
+                            <img src="../Assets/a206a3992f8dd3b83e58b96d68af3ba37d448aff.png" alt="product-image"
+                                class="small-image selected-image" />
+                        </div>
+                        <div class="small-image-container" id="double-image">
+                            <img src="../Assets/f7d2a29c6a0c7e783b9b54e2b2dd33f72b786b44.jpg" alt="product-image"
+                                class="small-image" />
+                        </div>
+                        <div class="small-image-container" id="honey-image">
+                            <img src="../Assets/a8c8f067b9a3a2d097a82012c1bf9fd831a81dcb.jpg" alt="product-image"
+                                class="small-image" />
+                        </div>
+                        <div class="small-image-container" id="wine-image">
+                            <img src="../Assets/0f17cfd29207b586b6636514f0a6a41abb0984fd.jpg" alt="product-image"
+                                class="small-image" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="product-details-container">
+                    <div class="product-details">
+                        <div style="display: flex; flex-direction: column; gap: 8px; margin: 0;">
+                            <h3>GTG Perfumes</h3>
+                            <div style="display: flex; align-items: center; gap: 4px; margin: 0;">
+                                <div style="display: flex; align-items: center; gap: 4px; margin: 0;">
+                                    <img src="../Assets/fullStar.png" alt="star" style="width: 12px; height: 12px;" />
+                                    <img src="../Assets/fullStar.png" alt="star" style="width: 12px; height: 12px;" />
+                                    <img src="../Assets/fullStar.png" alt="star" style="width: 12px; height: 12px;" />
+                                    <img src="../Assets/fullStar.png" alt="star" style="width: 12px; height: 12px;" />
+                                    <img src="../Assets/halfStar.png" alt="star" style="width: 12px; height: 12px;" />
+                                </div>
+                                <p class="rating-text">4.7 (999+ reviews)</p>
+                            </div>
+                        </div>
+                        <p>Experience the timeless allure backed by modern artistry, captured in every bottle of our
+                            fragrance. Crafted for those who seek to elevate their essence with purpose and
+                            sophistication.
+                        </p>
+
+                        <div class="card-container">
+
+                            <div class="card">
+                                <div class="banner">Most Popular</div>
+
+                                <div class="card-content">
+
+                                    <div class="header-row" id="single-header">
+                                        <label class="radio-group">
+                                            <input type="radio" name="sub_type" id="single-button" checked>
+                                            <p>Single Subscription</p>
+                                        </label>
+                                        <div class="price-group">
+                                            <p class="current-price">$99.99</p>
+                                            <p class="old-price">$146</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div id="single-card" style="display: block;">
+                                        <hr style="margin-top: 20px; margin-bottom: 20px;" />
+                                        <span class="section-title">Choose a Fragrance</span>
+                                        <div class="fragrance-options">
+
+                                            <label class="fragrance-card">
+                                                <span class="badge">BEST-SELLER</span>
+                                                <div class="fragrance-label">
+                                                    <input type="radio" name="fragrance" checked> Original
+                                                </div>
+                                                <div class="fragrance-img-container">
+                                                    <img src="../Assets/original.png" class="fragrance-img" alt="Rose">
+                                                </div>
+                                            </label>
+
+                                            <label class="fragrance-card">
+                                                <div class="fragrance-label">
+                                                    <input type="radio" name="fragrance"> Lily
+                                                </div>
+                                                <div class="fragrance-img-container">
+                                                    <img src="../Assets/lilly.png" class="fragrance-img" alt="Rose">
+                                                </div>
+                                            </label>
+
+                                            <label class="fragrance-card">
+                                                <div class="fragrance-label">
+                                                    <input type="radio" name="fragrance"> Rose
+                                                </div>
+                                                <div class="fragrance-img-container">
+                                                    <img src="../Assets/rose.png" class="fragrance-img" alt="Rose">
+                                                </div>
+                                            </label>
+                                        </div>
+
+                                        <span class="section-title">What's Included:</span>
+                                        <div class="included-grid">
+                                            <div class="included-box">
+                                                <div class="box-title">Every 30 Days</div>
+                                                <div>
+                                                    <img src="../Assets/original.png" class="box-img-single"
+                                                        alt="Bottle">
+
+                                                </div>
+                                            </div>
+                                            <div class="included-box">
+                                                <div class="box-title">One Time <strong>(Free)</strong></div>
+                                                <div class="box-img-group">
+                                                    <img src="../Assets/original.png" class="box-img-small">
+                                                    <img src="../Assets/lilly.png" class="box-img-small">
+                                                    <img src="../Assets/rose.png" class="box-img-small">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <ul class="benefits-list">
+                                            <li>
+                                                <div class="check-icon">
+                                                    <img src="../Assets/filledtick.png" alt="check" class="filledtick">
+                                                </div>
+                                                1 Bottle Shipped Monthly
+                                            </li>
+                                            <li>
+                                                <div class="check-icon">
+                                                    <img src="../Assets/filledtick.png" alt="check" class="filledtick">
+                                                </div>
+                                                <strong>Free</strong> Sampler For Original, Lily And Rose Fragrances
+
+
+                                            </li>
+                                            <li>
+                                                <div class="check-icon">
+                                                    <img src="../Assets/filledtick.png" alt="check" class="filledtick">
+                                                </div>
+                                                <strong>50% OFF Shipping</strong>
+                                            </li>
+                                            <li>
+                                                <div class="check-icon">
+                                                    <img src="../Assets/filledtick.png" alt="check" class="filledtick">
+                                                </div>
+                                                Pause Or Cancel Anytime After 3 Months Minimum
+                                            </li>
+                                            <li>
+                                                <div class="check-icon">
+                                                    <img src="../Assets/filledtick.png" alt="check" class="filledtick">
+                                                </div>
+                                                28 Day Money Back Guarantee*
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="card2">
+                                <div class="card-content">
+                                    <div class="header-row" id="double-header">
+                                        <label class="radio-group">
+                                            <input type="radio" id="double-button" name="sub_type">
+                                            <span>Double Subscription</span>
+                                        </label>
+                                        <div class="price-group">
+                                            <p class="current-price">$169.99</p>
+                                            <p class="old-price">$196</p>
+                                        </div>
+                                    </div>
+
+                                    <div id="double-card" style="display: none;">
+                                        <hr style="margin-top: 20px; margin-bottom: 20px;" />
+                                        <span class="section-title">Choose Fragrance 1</span>
+                                        <div class="fragrance-options">
+
+                                            <label class="fragrance-card">
+                                                <span class="badge">BEST-SELLER</span>
+                                                <div class="fragrance-label">
+                                                    <input type="radio" name="fragrance11" checked> Original
+                                                </div>
+                                                <div class="fragrance-img-container">
+                                                    <img src="../Assets/original.png" class="fragrance-img" alt="Rose">
+                                                </div>
+                                            </label>
+
+                                            <label class="fragrance-card">
+                                                <div class="fragrance-label">
+                                                    <input type="radio" name="fragrance11"> Lily
+                                                </div>
+                                                <div class="fragrance-img-container">
+                                                    <img src="../Assets/lilly.png" class="fragrance-img" alt="Rose">
+                                                </div>
+                                            </label>
+
+                                            <label class="fragrance-card">
+                                                <div class="fragrance-label">
+                                                    <input type="radio" name="fragrance11"> Rose
+                                                </div>
+                                                <div class="fragrance-img-container">
+                                                    <img src="../Assets/rose.png" class="fragrance-img" alt="Rose">
+                                                </div>
+                                            </label>
+                                        </div>
+
+                                        <span class="section-title">Choose Fragrance 2</span>
+                                        <div class="fragrance-options">
+
+                                            <label class="fragrance-card">
+                                                <span class="badge">BEST-SELLER</span>
+                                                <div class="fragrance-label">
+                                                    <input type="radio" name="fragrance12" checked> Original
+                                                </div>
+                                                <div class="fragrance-img-container">
+                                                    <img src="../Assets/original.png" class="fragrance-img" alt="Rose">
+                                                </div>
+                                            </label>
+
+                                            <label class="fragrance-card">
+                                                <div class="fragrance-label">
+                                                    <input type="radio" name="fragrance12"> Lily
+                                                </div>
+                                                <div class="fragrance-img-container">
+                                                    <img src="../Assets/lilly.png" class="fragrance-img" alt="Rose">
+                                                </div>
+                                            </label>
+
+                                            <label class="fragrance-card">
+                                                <div class="fragrance-label">
+                                                    <input type="radio" name="fragrance12"> Rose
+                                                </div>
+                                                <div class="fragrance-img-container">
+                                                    <img src="../Assets/rose.png" class="fragrance-img" alt="Rose">
+                                                </div>
+                                            </label>
+                                        </div>
+
+                                        <span class="section-title">What's Included:</span>
+                                        <div class="included-grid">
+                                            <div class="included-box">
+                                                <div class="box-title">Every 30 Days</div>
+                                                <div class="days-box">
+                                                    <img src="../Assets/original.png" class="box-img-single"
+                                                        alt="Bottle">
+                                                    <p class="scent-count">x2</p>
+                                                </div>
+                                            </div>
+                                            <div class="included-box">
+                                                <div class="box-title">One Time <strong>(Free)</strong></div>
+                                                <div class="box-img-group">
+                                                    <img src="../Assets/original.png" class="box-img-small">
+                                                    <img src="../Assets/lilly.png" class="box-img-small">
+                                                    <img src="../Assets/rose.png" class="box-img-small">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <ul class="benefits-list">
+                                            <li>
+                                                <div class="check-icon">
+                                                    <img src="../Assets/filledtick.png" alt="check" class="filledtick">
+                                                </div>
+                                                2 Bottle Shipped Monthly
+                                            </li>
+                                            <li>
+                                                <div class="check-icon">
+                                                    <img src="../Assets/filledtick.png" alt="check" class="filledtick">
+                                                </div>
+                                                <strong>Free</strong> Sampler For Original, Lily And Rose Fragrances
+                                            </li>
+                                            <li>
+                                                <div class="check-icon">
+                                                    <img src="../Assets/filledtick.png" alt="check" class="filledtick">
+                                                </div>
+                                                <strong>50% OFF Shipping</strong>
+                                            </li>
+                                            <li>
+                                                <div class="check-icon">
+                                                    <img src="../Assets/filledtick.png" alt="check" class="filledtick">
+                                                </div>
+                                                Pause Or Cancel Anytime After 3 Months Minimum
+                                            </li>
+                                            <li>
+                                                <div class="check-icon">
+                                                    <img src="../Assets/filledtick.png" alt="check" class="filledtick">
+                                                </div>
+                                                28 Day Money Back Guarantee*
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="tbg-button" style="width: 100%;">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordian-container">
+            <div class="inner-container">
+                <div class="accordian-content">
+                    <div class="left">
+                        <h2>Our Collection</h2>
+                        <div class="accordian">
+                            <div class="accordian-item">
+                                <button class="accordian-question">
+                                    <h2>Signature Scents</h2>
+                                    <span style="font-size: 20px; font-weight: bold;">+</span>
+
+                                </button>
+                                <p style="display: none;">Discover our curated line of signature perfumes, designed to
+                                    become your daily
+                                    companion.</p>
+
+                            </div>
+                            <div class="accordian-item">
+                                <button class="accordian-question">
+                                    <h2>Signature Scents</h2>
+                                    <span style="font-size: 20px; font-weight: bold;">+</span>
+
+                                </button>
+                                <p style="display: none;">Discover our curated line of signature perfumes, designed to
+                                    become your daily
+                                    companion.</p>
+
+
+                            </div>
+                            <div class="accordian-item">
+                                <button class="accordian-question">
+                                    <h2>Signature Scents</h2>
+                                    <span style="font-size: 20px; font-weight: bold;">+</span>
+
+                                </button>
+                                <p style="display: none;">Discover our curated line of signature perfumes, designed to
+                                    become your daily
+                                    companion.</p>
+
+
+                            </div>
+                            <div class="accordian-item">
+                                <button class="accordian-question">
+                                    <h2>Signature Scents</h2>
+                                    <span style="font-size: 20px; font-weight: bold;">+</span>
+
+                                </button>
+                                <p style="display: none;">Discover our curated line of signature perfumes, designed to
+                                    become your daily
+                                    companion.</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="accordian-image-container">
+                            <img src="../Assets/60a31355ad8d95a8a0b6a7d8d5cbfff286a9dbe8.jpg" alt="product-image"
+                                class="product-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="percentages-container">
+            <div class="inner-container">
+                <div class="percentage-content">
+                    <div class="percentage-item">
+                        <h2>84%</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                    <div class="percentage-item">
+                        <h2>78%</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                    <div class="percentage-item">
+                        <h2>89%</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                    <div class="percentage-item">
+                        <h2>90%</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="table-container">
+            <div class="inner-container">
+                <div class="table-content">
+                    <div class="table-heading">
+                        <p>---</p>
+                        <h2>Why GTG is the #1 Choice</h2>
+                    </div>
+
+                    <div class="table">
+                        <table class="compare-table">
+                            <tr>
+                                <td class="text-data normal-col">
+                                    <p class="td-label">Qualities</p>
+                                </td>
+
+                                <td class="img-data highlight-col">
+                                    <div class="cell-content">
+                                        <img src="../Assets/c3e9ef76a963cfb379652f97bdc0b7144a6e9317.jpg"
+                                            class="table-image" />
+                                        <p>GTG</p>
+                                    </div>
+                                </td>
+
+                                <td class="img-data normal-col">
+                                    <div class="cell-content">
+                                        <img src="../Assets/f7d2a29c6a0c7e783b9b54e2b2dd33f72b786b44.jpg"
+                                            class="table-image" />
+                                        <p>Arose</p>
+                                    </div>
+                                </td>
+
+                                <td class="img-data normal-col">
+                                    <div class="cell-content">
+                                        <img src="../Assets/0f17cfd29207b586b6636514f0a6a41abb0984fd.jpg"
+                                            class="table-image" />
+                                        <p>Bella</p>
+                                    </div>
+                                </td>
+
+                                <td class="img-data normal-col">
+                                    <div class="cell-content">
+                                        <img src="../Assets/aed0e9a718e6863cb177edc099de63dbd908eb05.jpg"
+                                            class="table-image" />
+                                        <p>Diases</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-data">
+                                    <p class="td-label">Potency Concentration</p>
+                                </td>
+
+                                <td class="text-data highlight-col">10x</td>
+
+                                <td class="text-data">1x</td>
+
+                                <td class="text-data">1x</td>
+
+                                <td class="text-data">10x</td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-data">
+                                    <p class="td-label">Longevity</p>
+                                </td>
+
+                                <td class="text-data highlight-col">
+
+                                    <div class="td-content ">
+                                        <div class="tick-container">
+                                            <img src="../Assets/tick.png" class="tick-image" />
+                                        </div>
+                                    </div>
+
+                                </td>
+
+                                <td class="text-data">
+
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container">
+                                            <img src="../Assets/tick.png" class="tick-image" />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-data">
+                                    <p class="td-label">Sillage</p>
+                                </td>
+
+                                <td class="text-data highlight-col">
+                                    <div class="td-content">
+                                        <div class="tick-container">
+                                            <img src="../Assets/tick.png" class="tick-image" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-data">
+                                    <p class="td-label">Bottle Design Score</p>
+                                </td>
+
+                                <td class="text-data highlight-col">9</td>
+
+                                <td class="text-data">5</td>
+
+                                <td class="text-data">6</td>
+
+                                <td class="text-data">2</td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-data">
+                                    <p class="td-label">Blend and Harmony</p>
+                                </td>
+
+                                <td class="text-data highlight-col">
+                                    <div class="td-content">
+                                        <div class="tick-container">
+                                            <img src="../Assets/tick.png" class="tick-image" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-data">
+                                    <p class="td-label">Skin Compatibility</p>
+                                </td>
+
+                                <td class="text-data highlight-col">
+                                    <div class="td-content">
+                                        <div class="tick-container">
+                                            <img src="../Assets/tick.png" class="tick-image" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-data">
+                                    <p class="td-label">Price vs. Quality</p>
+                                </td>
+
+                                <td class="text-data highlight-col">
+                                    <div class="td-content">
+                                        <div class="tick-container">
+                                            <img src="../Assets/tick.png" class="tick-image" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container">
+                                            <img src="../Assets/tick.png" class="tick-image" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container">
+                                            <img src="../Assets/tick.png" class="tick-image" />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-data">
+                                    <p class="td-label">Scent Profile</p>
+                                </td>
+
+                                <td class="text-data highlight-col">
+                                    <div class="td-content">
+                                        <div class="tick-container">
+                                            <img src="../Assets/tick.png" class="tick-image" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container">
+                                            <img src="../Assets/tick.png" class="tick-image" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="text-data">
+                                    <div class="td-content">
+                                        <div class="tick-container-transparent">
+                                            <img src="../Assets/Vector18.png" class="tick-image-opposite" />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div>
+                        <button class="tbg-button">Try It Risk-Free</button>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-container">
+            <div class="inner-container">
+                <div class="footer-content">
+                    <div class="left-footer">
+                        <h2>GTG</h2>
+                        <div class="footer-links-container">
+                            <ul>
+                                <li><button class="footer-button">Home</button></li>
+                                <li><button class="footer-button">Shop</button></li>
+                                <li><button class="footer-button">Fragrances</button></li>
+                            </ul>
+                            <ul>
+                                <li><button class="footer-button">About Us</button></li>
+                                <li><button class="footer-button">Blog</button></li>
+                                <li><button class="footer-button">Contact</button></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <button class="footer-button">
+                                        <div class="social-icon-container">
+                                            <img src="../Assets/fb.png" alt="facebook" class="social-icon" />
+                                        </div>
+                                        <p>Facebook</p>
+                                    </button>
+
+                                </li>
+                                <li>
+                                    <button class="footer-button">
+                                        <div class="social-icon-container">
+                                            <img src="../Assets/ins.png" alt="facebook" class="social-icon" />
+                                        </div>
+                                        <p>Instagram</p>
+                                    </button>
+
+                                </li>
+                                <li>
+                                    <button class="footer-button">
+                                        <div class="social-icon-container">
+                                            <img src="../Assets/x.png" alt="facebook" class="social-icon" />
+                                        </div>
+                                        <p>X</p>
+                                    </button>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right-footer">
+                        <p>Join our newsletter to stay up to date on features and releases.</p>
+                        <div class="footer-input-container">
+                            <div class="footer-input">
+                                <input type="text" placeholder="Enter your email" />
+                                <button>Subscribe</button>
+                            </div>
+                            <p>By subscribing you agree to with our <span>Privacy Policy</span> and provide consent to
+                                receive
+                                updates
+                                from our company.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="../JS/main.js" defer></script>
+</body>
+
+</html>
